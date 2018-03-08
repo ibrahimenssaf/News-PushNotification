@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cute"
+    tools:context="com.example.user.gridl_cardview.AdminActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="@color/cute"
+        android:layout_marginTop="52dp"
+        android:text="Control Room"
+        android:textSize="20dp"
+        android:padding="6dp"
+        android:background="@color/input"
+        android:textStyle="italic|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAdmin_push"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:onClick="push_not"
+        android:background="@drawable/border_button"
+        android:text="Push Notification"
+        android:textColor="@color/input"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="16dp"
+         />
+</android.support.constraint.ConstraintLayout>
